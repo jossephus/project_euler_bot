@@ -1,7 +1,8 @@
 const TelegramBot = require("node-telegram-bot-api");
-const token = "1395184510:AAFDob-OTjeb1d2zhxEnJvCVCMCPSXKyS68";
+const token = process.env.TOKEN;
 const bot = new TelegramBot(token , {polling : true});
 const Question = require("./question");
+
 
 bot.on('message' , (msg) => { 
 	 const chatId = msg.chat.id;
