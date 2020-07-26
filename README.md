@@ -4,7 +4,10 @@
 # Steps
 
 Foobar is a Python library for dealing with word pluralization.
-1) npm install
+1) after cloning the repo run
+```node
+npm install
+```
 2) create a new bot using http://t.me/BotFather
 3)  copy ur bot token and set it to ur environment variables using 
 ```bash        
