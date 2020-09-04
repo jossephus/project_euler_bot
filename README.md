@@ -3,7 +3,6 @@
 
 # Steps
 
-Foobar is a Python library for dealing with word pluralization.
 1) after cloning the repo run
 ```node
 npm install
